@@ -1,0 +1,92 @@
+/* requestsStyle.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('bambam.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navContainer {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.listings-container {
+    background: #efe9d9;
+    border: 2px solid #0c2340;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px #c1cddd;
+    color: #0c2340;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header2 {
+    color: black;
+    justify-content: center;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title,
+.Description,
+.Helpers,
+.postButton,
+.flareDropwdown {
+    width: 95%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.postButton {
+    width: 15%;
+}
+
+.flareDropwdown {
+    width: 34%;
+}
+
+.Title::placeholder,
+.Description::placeholder,
+.Helpers::placeholder,
+.flareDropwdown::placeholder,
+.postButton::placeholder {
+    color: black;
+}

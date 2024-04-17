@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postings Form</title>
+    <link rel="stylesheet" href="requestsStyle.css">
+    <link rel="stylesheet" href="nav3.css">
+
+</head>
+<body>
+
+
+    <div class="navContainer">
+        
+       
+        <nav id="top-nav">
+            <ul>  
+                <li> <a href="profile.html">Profile</a>  </li>
+                <li> <a href="calIndex.html">Club Events</a>  </li>
+                <li> <a href="listings 2.html">Listings</a>  </li>
+                <li> <a href="threads.html">Threads</a>  </li>
+               
+            </ul>
+        </nav>
+
+
+                <p id="requests-button" style="text-align: center; display: inline-block"><a class="listingsButton" href="requests.html">+</a></p>
+
+
+    </div>
+
+
+
+    <div class="listings-container">  
+        <h2 class="header2">Make a Post!</h2>
+        <div class="input-container">
+            <input type="text" class="Title" placeholder="Enter your title here">
+            <input type="text" class="Description" placeholder="Enter a description of your request here">
+            <input type="text" class="Helpers" placeholder="Number of helpers needed here">
+            <select class="flareDropwdown">
+                <option value="Food">Discussion Post</option>
+                <option value="service">Requests</option>
+                <option value="Skills">Offers</option>
+            </select>
+            <button class="postButton" onclick="clicking(); newPage()">Post!</button>
+        </div>
+    </div>
+    <script src="requestsJava.js"></script>
+</body>
+</html>
