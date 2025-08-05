@@ -3,7 +3,7 @@
 A comprehensive web application designed to connect Notre Dame students through cultural organizations, events, and community building.  
 Built with **vanilla JavaScript**, **HTML5**, and **CSS3**, featuring dynamic user authentication, real-time content management, and responsive design.
 
-**Live Demo:** [uNDme on GitHub Pages](https://aynmk7.github.io/uNdme/core/index.html)
+**Live Demo:** [uNDme on GitHub Pages](https://aynmk7.github.io/uNdme/)
 
 ---
 
