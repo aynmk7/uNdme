@@ -1,0 +1,151 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Convert | Export html Table to CSV & EXCEL File</title>
+     <link rel="stylesheet" href="cal.css">
+     <link rel="stylesheet" href="../navigation/nav3.css">
+ </head>
+ 
+ <body>
+    <div class="navContainer">
+        
+       
+        <nav id="top-nav">
+            <ul>  
+                <li> <a href="../profile/profile.html">Profile</a>  </li>
+                <li> <a href="calIndex.html">Club Events</a>  </li>
+                <li> <a href="../listings/listings 2.html">Listings</a>  </li>
+                <li> <a href="../threads/threads.html">Threads</a>  </li>
+               
+            </ul>
+        </nav>
+
+
+                <p id="requests-button" style="text-align: center; display: inline-block"><a class="listingsButton" href="../requests/requests.html">+</a></p>
+
+
+    </div>
+     <main class="table" id="Organization_table">
+        
+         <section class="table__header">
+             <h2>Meeting Times & Dates</h2>
+             <div class="input-group">
+                 <input type="search" placeholder="Search Data...">
+             </div>
+             <div class="export__file">
+                 <label for="export-file" class="export__file-btn" title="Export File"></label>
+                 <input type="checkbox" id="export-file">
+                 <div class="export__file-options">
+                     <label>Export As &nbsp; &#10140;</label>
+                     <label for="export-file" id="toPDF">PDF <img src="../icons/pdf.png" alt=""></label>
+                     <label for="export-file" id="toJSON">JSON <img src="../icons/json.png" alt=""></label>
+                     <label for="export-file" id="toCSV">CSV <img src="../icons/csv.png" alt=""></label>
+                     <label for="export-file" id="toEXCEL">EXCEL <img src="../icons/excel.png" alt=""></label>
+                 </div>
+             </div>
+         </section>
+         <section class="table__body">
+             <table>
+                 <thead>
+                     <tr>
+                         <th> Posting </th>
+                         <th> Organization </th>
+                         <th> Location </th>
+                         <th> Date </th>
+                         <th> Status </th>
+                         <th> Time </th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td> 1 </td>
+                         <td> <img src="../logos/nsbelogo.png" alt="">National Society of Black Engineers</td>
+                         <td> W210 Duncan Student Center </td>
+                         <td> 17 Apr 2024 </td>
+                         <td>
+                             <p class="status upcoming">upcoming</p>
+                         </td>
+                         <td> <strong> 6:30 - 7:30 p.m. </strong></td>
+                     </tr>
+                     <tr>
+                         <td> 2 </td>
+                         <td><img src="../logos/latinologo.jpg" alt=""> Latino Student Association</td>
+                         <td> 202 History Maker's Room LaFortune Student Center </td>
+                         <td> 18 Apr 2024 </td>
+                         <td>
+                             <p class="status cancelled">cancelled</p>
+                         </td>
+                         <td> <strong>5:30 - 6:30 p.m.</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 3</td>
+                         <td><img src="../logos/msalogo-modified.png" alt=""> Muslim Student Association </td>
+                         <td> Champions of Diversity Room LaFortune Student Center </td>
+                         <td> 19 Apr 2024 </td>
+                         <td>
+                             <p class="status upcoming">upcoming</p>
+                         </td>
+                         <td> <strong>4:30 - 5:30 p.m. </strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 4</td>
+                         <td><img src="../logos/shpelogo.png" alt=""> Society of Hispanic Engineers </td>
+                         <td> 131 DeBartolo Hall</td>
+                         <td> 22 Apr 2024 </td>
+                         <td>
+                             <p class="status upcoming">upcoming</p>
+                         </td>
+                         <td> <strong>6:00 - 7:00 p.m.</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 5</td>
+                         <td><img src="../logos/sasalogo.png" alt=""> South Asian Student Association </td>
+                         <td> 141 Bond Hall </td>
+                         <td> 24 Apr 2024</td>
+                         <td>
+                             <p class="status cancelled">cancelled</p>
+                         </td>
+                         <td> <strong>3:00 - 4:00 p.m.</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 6</td>
+                         <td><img src="../logos/asalogo.jpg" alt=""> African Student Association </td>
+                         <td> W246 Duncan Student Center Hall </td>
+                         <td> 25 Apr 2024 </td>
+                         <td>
+                             <p class="status cancelled">cancelled</p>
+                         </td>
+                         <td> <strong>3:30 - 4:30 p.m.</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 7</td>
+                         <td><img src="../logos/frenchlogo.PNG" alt=""> French Club </td>
+                         <td> 212 Bond Hall </td>
+                         <td> 26 Apr 2024 </td>
+                         <td>
+                             <p class="status upcoming">upcoming</p>
+                         </td>
+                         <td> <strong>8:00 - 9:00 p.m.</strong> </td>
+                     </tr>
+                     <tr>
+                         <td> 8</td>
+                         <td><img src="../logos/mspslogo.jpg"> Multicultural Student Program Services </td>
+                         <td> LaFortune DEI Center </td>
+                         <td> 29 Apr 2024 </td>
+                         <td>
+                             <p class="status upcoming">upcoming
+                         <td> <strong>6:30 - 7:30 p.m.</strong> </td>
+                     </tr>
+                 </tbody>
+             </table>
+         </section>
+        </main>
+     <script src="../core/script.js"></script>
+ 
+ </body>
+ 
+ </html>

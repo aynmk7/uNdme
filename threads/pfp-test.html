@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Picture Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .test-image {
+            margin: 10px;
+            display: inline-block;
+            text-align: center;
+        }
+        .test-image img {
+            width: 50px;
+            height: 50px;
+            border: 2px solid #ccc;
+            border-radius: 50%;
+        }
+        .working {
+            border-color: green !important;
+        }
+        .broken {
+            border-color: red !important;
+        }
+    </style>
+</head>
+<body>
+    <h1>Profile Picture Test</h1>
+    <p>Green border = working, Red border = broken</p>
+    
+    <div class="test-image">
+        <img src="../pfps/AI generated girl2.png" alt="AI generated girl2" onload="this.className='working'" onerror="this.className='broken'">
+        <br>AI generated girl2.png
+    </div>
+    
+    <div class="test-image">
+        <img src="../pfps/AIgenerated male.png" alt="AIgenerated male" onload="this.className='working'" onerror="this.className='broken'">
+        <br>AIgenerated male.png
+    </div>
+    
+    <div class="test-image">
+        <img src="../pfps/Apink.png" alt="Apink" onload="this.className='working'" onerror="this.className='broken'">
+        <br>Apink.png
+    </div>
+    
+    <div class="test-image">
+        <img src="../pfps/Ateal.png" alt="Ateal" onload="this.className='working'" onerror="this.className='broken'">
+        <br>Ateal.png
+    </div>
+    
+    <div class="test-image">
+        <img src="../pfps/circleSam.png" alt="circleSam" onload="this.className='working'" onerror="this.className='broken'">
+        <br>circleSam.png
+    </div>
+    
+    <div class="test-image">
+        <img src="../pfps/Default_pfp.svg.png" alt="Default_pfp" onload="this.className='working'" onerror="this.className='broken'">
+        <br>Default_pfp.svg.png
+    </div>
+    
+    <div class="test-image">
+        <img src="../pfps/girl-modified.png" alt="girl-modified" onload="this.className='working'" onerror="this.className='broken'">
+        <br>girl-modified.png
+    </div>
+    
+    <div class="test-image">
+        <img src="../pfps/s purple.png" alt="s purple" onload="this.className='working'" onerror="this.className='broken'">
+        <br>s purple.png
+    </div>
+    
+    <div class="test-image">
+        <img src="../pfps/t blue.png" alt="t blue" onload="this.className='working'" onerror="this.className='broken'">
+        <br>t blue.png
+    </div>
+    
+    <div class="test-image">
+        <img src="../pfps/v teal.png" alt="v teal" onload="this.className='working'" onerror="this.className='broken'">
+        <br>v teal.png
+    </div>
+
+    <script>
+        setTimeout(() => {
+            const images = document.querySelectorAll('img');
+            let working = 0;
+            let broken = 0;
+            
+            images.forEach(img => {
+                if (img.className === 'working') working++;
+                else if (img.className === 'broken') broken++;
+            });
+            
+            document.body.innerHTML += `<h2>Results: ${working} working, ${broken} broken</h2>`;
+        }, 2000);
+    </script>
+</body>
+</html>

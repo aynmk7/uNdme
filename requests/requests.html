@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postings Form</title>
+    <link rel="stylesheet" href="requestsStyle.css">
+    <link rel="stylesheet" href="../navigation/nav3.css">
+
+</head>
+<body>
+
+
+    <div class="navContainer">
+        
+       
+        <nav id="top-nav">
+            <ul>  
+                <li> <a href="../profile/profile.html">Profile</a>  </li>
+                <li> <a href="../calendar/calIndex.html">Club Events</a>  </li>
+                <li> <a href="../listings/listings 2.html">Listings</a>  </li>
+                <li> <a href="../threads/threads.html">Threads</a>  </li>
+               
+            </ul>
+        </nav>
+
+
+                <p id="requests-button" style="text-align: center; display: inline-block"><a class="listingsButton" href="requests.html">+</a></p>
+
+
+    </div>
+
+
+
+    <div class="listings-container">  
+        <h2 class="header2">Make a Post!</h2>
+        <form id="postForm" class="input-container">
+            <input type="text" class="Title" placeholder="Enter your title here" required>
+            <textarea class="Description" placeholder="Enter a description here" required></textarea>
+            <input type="number" class="Helpers" placeholder="Number of helpers needed (for requests/offers only)" min="1">
+            <select class="flareDropdown" required>
+                <option value="">Select Post Type</option>
+                <option value="discussion">Discussion Post (goes to Threads)</option>
+                <option value="request">Request (goes to Listings)</option>
+                <option value="offer">Offer (goes to Listings)</option>
+            </select>
+            <button type="submit" class="postButton">Post!</button>
+        </form>
+    </div>
+    <script src="../core/profileManager.js"></script>
+    <script src="requestsJava.js"></script>
+</body>
+</html>

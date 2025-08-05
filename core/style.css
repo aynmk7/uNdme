@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+    background-color: #1a472a; 
+    background-image: url("../backgrounds/dome3.jpeg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.wrapper{
+    width: 420px;
+    background: #efe9d9;
+    border:  2px solid  #0c2340;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px #c1cddd;
+    color:#0c2340;
+    border-radius: 10px;
+    padding: 10px 40px 20px;
+}
+
+.wrapper h2{
+    font-size: 25px;
+    text-align: center;
+}
+   
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #d39f10;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #0c2340;
+    padding: 20px 45px 20px 20px;
+
+}
+
+.input-box input::placeholder{
+    color: #0c2340;
+
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #0c2340;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #0c2340;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #d39f10;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 1 black;
+    cursor: pointer;
+    font-size: 16px;
+    color: #0c2340;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.wrapper .register-link{
+  font-size: 14.5px;
+  text-align: center; 
+  margin-top: 20px;
+  margin: -15px 0 15px;
+  text-decoration: none;
+  
+}
+
+.register-link p a{
+    color: #0c2340;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}

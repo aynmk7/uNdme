@@ -1,0 +1,120 @@
+/* requestsStyle.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('../backgrounds/dome4.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navContainer {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.listings-container {
+    background: #efe9d9;
+    border: 2px solid #0c2340;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px #c1cddd;
+    color: #0c2340;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header2 {
+    color: black;
+    justify-content: center;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title,
+.Description,
+.Helpers,
+.postButton,
+.flareDropdown {
+    width: 95%;
+    padding: 12px;
+    outline: 0;
+    border: 2px solid #0c2340;
+    color: #0c2340;
+    background: #fff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.Description {
+    min-height: 80px;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Title:focus,
+.Description:focus,
+.Helpers:focus,
+.flareDropdown:focus {
+    border-color: #1a3a5c;
+    box-shadow: 0 0 5px rgba(12, 35, 64, 0.3);
+}
+
+.postButton {
+    width: 25%;
+    background-color: #0c2340;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.postButton:hover {
+    background-color: #1a3a5c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.flareDropdown {
+    width: 60%;
+}
+
+.Title::placeholder,
+.Description::placeholder,
+.Helpers::placeholder,
+.flareDropdown::placeholder,
+.postButton::placeholder {
+    color: #666;
+    opacity: 0.7;
+}
