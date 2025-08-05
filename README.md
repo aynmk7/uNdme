@@ -29,16 +29,16 @@ Architecture:
 File Structure:
 - uNDme/
    - index.html           ------------- Login page
-   - loginHandler.js      # Authentication logic
-   - profileManager.js  # User profile management
-   -  style.css         # Login styling
-   - profile/               # User profile system
-   - threads/               # Discussion forums
-   - listings/              # Event listings
-   - calendar/              # Event calendar
-   - requests/              # Service requests
-   - navigation/            # Shared navigation components
-   - assets/                # Images, logos, backgrounds
-   - README.md              # Readme file
+   - loginHandler.js      ------------- Authentication logic
+   - profileManager.js  ------------- User profile management
+   -  style.css         ------------- Login styling
+   - profile/               ------------- User profile system
+   - threads/               ------------- Discussion forums
+   - listings/              ------------- Event listings
+   - calendar/              ------------- Event calendar
+   - requests/              ------------- Service requests
+   - navigation/            ------------- Shared navigation components
+   - assets/                ------------- Images, logos, backgrounds
+   - README.md              ------------- Readme file
 
 This site was developed by Amaya Tucker, Aynaz Namik, and Amanda Thomas in the Spring 2024 Hesburgh Hackathon. For any questions, comments, or concerns, please send a message.
