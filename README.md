@@ -38,6 +38,7 @@ Built with **vanilla JavaScript**, **HTML5**, and **CSS3**, featuring dynamic us
 ---
 
 ## File Structure
+```
 uNDme/
 ├── index.html # Login page
 ├── loginHandler.js # Authentication logic
@@ -51,6 +52,7 @@ uNDme/
 ├── navigation/ # Shared navigation components
 ├── assets/ # Images, logos, backgrounds
 └── README.md # Project documentation
+```
 
 ## My Primary Contributions
 - Implemented backend logic in JavaScript to support site functionality
