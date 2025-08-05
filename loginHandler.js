@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Redirect to profile page after login
-        window.location.href = '../profile/profile.html';
+        window.location.href = 'profile/profile.html';
     });
 });
 
@@ -27,7 +27,7 @@ function setupSamHartmanProfile() {
     const samProfile = {
         name: "Sam Hartman",
         username: "shartman",
-        profileImage: "../pfps/circleSam.png",
+        profileImage: "pfps/circleSam.png",
         isSpecialUser: true
     };
     
@@ -58,7 +58,7 @@ function setupGuestProfile(username) {
     const guestProfile = {
         name: username || "Guest User",
         username: username || "guest",
-        profileImage: "../pfps/Default_pfp.svg.png",
+        profileImage: "pfps/Default_pfp.svg.png",
         isSpecialUser: false
     };
     
