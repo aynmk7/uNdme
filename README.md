@@ -42,3 +42,9 @@ File Structure:
    - README.md              ------------- Readme file
 
 This site was developed by Amaya Tucker, Aynaz Namik, and Amanda Thomas in the Spring 2024 Hesburgh Hackathon. For any questions, comments, or concerns, please send a message.
+**My Primary Contributions**:
+   - Implemented backend logic in JavaScript to support site functionality
+   - Designed the UI for the listings and requests pages and integrated them with backend logic
+   - Organized file structure and data storage for users and their activity (comments, postings, etc.) to ensure scalability and maintainability
+   - Assisted with profile page UI design
+   - Developed login logic and authentication flow
