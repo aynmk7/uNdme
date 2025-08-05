@@ -28,8 +28,8 @@ Architecture:
 
 File Structure:
 - uNDme/
-   - index.html        |    # Login page
-   - loginHandler.js    |   # Authentication logic
+   - index.html           ------------- Login page
+   - loginHandler.js      # Authentication logic
    - profileManager.js  # User profile management
    -  style.css         # Login styling
    - profile/               # User profile system
