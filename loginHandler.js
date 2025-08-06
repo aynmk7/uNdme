@@ -1,26 +1,26 @@
 // Login Handler - manages user authentication and profile setup
 
 document.addEventListener('DOMContentLoaded', function() {
-    const loginForm = document.getElementById('loginForm');
+    const loginButton = document.getElementById('loginButton');
     
-    loginForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const username = document.getElementById('username').value;
-        const password = document.getElementById('password').value;
-        
-        // Check for Sam Hartman's special credentials
-        if (username === 'shartman') {
-            // Set up Sam Hartman profile
-            setupSamHartmanProfile();
-        } else {
-            // Set up random/guest user profile
-            setupGuestProfile(username);
-        }
-        
-        // Redirect to profile page after login
-        window.location.href = 'profile/profile.html';
-    });
+    if (loginButton) {
+        loginButton.addEventListener('click', function() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            
+            // Check for Sam Hartman's special credentials
+            if (username === 'shartman') {
+                // Set up Sam Hartman profile
+                setupSamHartmanProfile();
+            } else {
+                // Set up random/guest user profile
+                setupGuestProfile(username);
+            }
+            
+            // Redirect to profile page after login
+            window.location.href = 'profile/profile.html';
+        });
+    }
 });
 
 function setupSamHartmanProfile() {
